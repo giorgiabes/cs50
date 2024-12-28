@@ -64,5 +64,3 @@ dmypy.json
 # Secrets
 *.key
 *.pem
-
-test
