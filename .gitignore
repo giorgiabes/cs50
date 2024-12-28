@@ -1,0 +1,67 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest and coverage reports
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Logs and debug
+*.log
+*.out
+*.err
+
+# Other files
+*.sqlite3
+*.db
+
+# Ignore local environment variables
+.env
+*.env
+.env.*
+
+# Secrets
+*.key
+*.pem
+
