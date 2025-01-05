@@ -2,6 +2,7 @@ def main():
     file = input("File name: ")
     print(media_type(file))
 
+
 def media_type(f: str):
     extension = f.split(".")[-1].lower().strip()
 
@@ -18,5 +19,6 @@ def media_type(f: str):
             return "application/octet-stream"
         case _:
             return "application/octet-stream"
+
 
 main()

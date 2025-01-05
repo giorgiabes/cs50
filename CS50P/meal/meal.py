@@ -7,9 +7,11 @@ def main():
     elif 18 <= convert(time) <= 19:
         print("dinner time")
 
+
 def convert(t: str) -> float:
     hours, minutes = t.split(":")
     return float(hours) + float(minutes) / 60
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

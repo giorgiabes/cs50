@@ -2,6 +2,7 @@ def main():
     expression = input("Expression: ")
     print(calculator(expression))
 
+
 def calculator(e: str):
     x, y, z = e.split(" ")
     if y == "+":

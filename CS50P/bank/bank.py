@@ -2,6 +2,7 @@ def main():
     greeting = input("Greeting: ")
     print(say_hello(greeting))
 
+
 def say_hello(s: str):
     s = s.strip().lower()
     first_word = s.split(" ")[0]
@@ -11,5 +12,6 @@ def say_hello(s: str):
         return "$20"
     else:
         return "$100"
+
 
 main()
